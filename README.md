@@ -20,7 +20,7 @@ following keys:
 * `C-M-S-h` or `C-M-KP_4` -- Left half
 * `C-M-KP_5` -- Full screen
 
-To setup panels, edit Opts.panels.  The default is::
+To setup panels, edit Opts.panels.  The default is:
 
     panels = [
         {'top': 24, 'bottom': 24},  # monitor 0
@@ -45,6 +45,14 @@ How to Use
 
 ### Running the daemon ###
      python gnome-shell-grid/gnome_shell_grid.py
+
+### Running on Login ###
+
+For ubuntu: Open 'Startup Applications' and add a new entry:
+
+    Name: gnome-shell-grid
+    Command: python /path/to/gnome_shell_grid.py
+
 
 License
 -------
