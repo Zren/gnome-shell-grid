@@ -37,8 +37,7 @@ class Opts(object):
 
     """ Panel sizes for each monitor. """
     panels = [
-        {'top': 24, 'bottom': 24},  # monitor 0
-        {'top': 24},                # monitor 1
+        {},  # monitor 0
     ]
 
     """
